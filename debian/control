@@ -1,0 +1,13 @@
+Source: mono
+Section: cli-mono
+Priority: optional
+Maintainer: Maxim Egorov <egorovmv@yandex-team.ru>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/mono/mono
+
+Package: mono
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, libc6, pkg-config
+Description: Mono
+ Mono complete build package

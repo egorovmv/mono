@@ -1,0 +1,35 @@
+mono (3.8.0-6+yandex6) unstable; urgency=medium
+
+  * Incorrect parsing Content-Disposition header
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Fri, 10 Oct 2014 16:55:56 +0400
+
+mono (3.8.0-5+yandex5) unstable; urgency=medium
+
+  * Incorrect parsing Content-Type header
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Fri, 10 Oct 2014 15:43:56 +0400
+
+mono (3.8.0-4+yandex4) unstable; urgency=medium
+
+  * Incorrect parsing Content-Type header
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Fri, 10 Oct 2014 14:21:56 +0400
+
+mono (3.8.0-3+yandex3) unstable; urgency=medium
+
+  * Restored Td70.cs
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Wed, 10 Sep 2014 21:04:35 +0400
+
+mono (3.8.0-2+yandex2) unstable; urgency=medium
+
+  * Added symbolic links to some so-files
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Tue, 09 Sep 2014 19:56:34 +0400
+
+mono (3.8.0-1+yandex1) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Thu, 04 Sep 2014 21:31:40 +0400

@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mono
+Source: https://github.com/mono/mono
+
+Files: *
+Copyright: 2014 (c) Various mono authors
+License: GPLv2
+
+Files: debian/*
+Copyright: 2014 Maxim Egorov <egorovmv@yandex-team.ru>
+License: GPLv2
