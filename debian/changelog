@@ -1,3 +1,9 @@
+mono (3.8.0-7+yandex7) unstable; urgency=medium
+
+  * Appended details about broken Http header in FormatException
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Fri, 06 Feb 2015 16:55:56 +0400
+
 mono (3.8.0-6+yandex6) unstable; urgency=medium
 
   * Incorrect parsing Content-Disposition header
