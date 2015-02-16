@@ -1,3 +1,9 @@
+mono (3.12.0.76+yandex1) unstable; urgency=medium
+
+  * Based on mono 3.12.0.76 release + remove the size constraint on the input string in Uri.EscapeDataString and Uri.EscapeUriString
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Mon, 16 Feb 2015 16:55:56 +0400
+
 mono (3.8.0-7+yandex7) unstable; urgency=medium
 
   * Appended details about broken Http header in FormatException

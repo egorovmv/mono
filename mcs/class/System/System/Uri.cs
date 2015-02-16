@@ -1761,8 +1761,6 @@ namespace System {
 
 		// static methods
 
-		private const int MaxUriLength = 32766;
-
 		public static int Compare (Uri uri1, Uri uri2, UriComponents partsToCompare, UriFormat compareFormat, StringComparison comparisonType)
 		{
 			if ((comparisonType < StringComparison.CurrentCulture) || (comparisonType > StringComparison.OrdinalIgnoreCase)) {
@@ -1821,10 +1819,6 @@ namespace System {
 			if (stringToEscape == null)
 				throw new ArgumentNullException ("stringToEscape");
 
-			if (stringToEscape.Length > MaxUriLength) {
-				throw new UriFormatException (string.Format ("Uri is longer than the maximum {0} characters.", MaxUriLength));
-			}
-
 			bool escape = false;
 			foreach (char c in stringToEscape){
 				if (NeedToEscapeDataChar (c)){
@@ -1879,10 +1873,6 @@ namespace System {
 		{
 			if (stringToEscape == null)
 				throw new ArgumentNullException ("stringToEscape");
-
-			if (stringToEscape.Length > MaxUriLength) {
-				throw new UriFormatException (string.Format ("Uri is longer than the maximum {0} characters.", MaxUriLength));
-			}
 
 			bool escape = false;
 			foreach (char c in stringToEscape){
