@@ -193,7 +193,7 @@ namespace System.Net.Http.Headers
 							continue;
 						}
 
-						throw new FormatException ();
+						throw new FormatException (string.Format ("header: {0}, value: {1}", name, value));
 					}
 
 					if (headerInfo.AllowsMany) {
