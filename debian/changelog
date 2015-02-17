@@ -1,3 +1,9 @@
+mono (3.12.0.76+yandex2) unstable; urgency=medium
+
+  * Fixed invalid links to libMonoHelper.so
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Tue, 17 Feb 2015 16:55:56 +0400
+
 mono (3.12.0.76+yandex1) unstable; urgency=medium
 
   * Based on mono 3.12.0.76 release + remove the size constraint on the input string in Uri.EscapeDataString and Uri.EscapeUriString
