@@ -1,3 +1,9 @@
+mono (3.8.0-9+yandex9) unstable; urgency=medium
+
+  * Removed size constraint in Uri.EscapeDataString
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Tue, 19 Feb 2015 16:22:56 +0400
+
 mono (3.8.0-7+yandex7) unstable; urgency=medium
 
   * Appended details about broken Http header in FormatException
