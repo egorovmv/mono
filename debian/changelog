@@ -1,6 +1,6 @@
 mono (3.8.0-9+yandex9) unstable; urgency=medium
 
-  * Removed size constraint in Uri.EscapeDataString
+  * Removed size constraint in Uri.EscapeDataString and Uri.EscapeUriString
 
  -- Maxim Egorov <egorovmv@yandex-team.ru>  Tue, 19 Feb 2015 16:22:56 +0400
 
