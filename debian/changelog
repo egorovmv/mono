@@ -1,3 +1,9 @@
+mono (3.8.0-10+yandex10) unstable; urgency=medium
+
+  * Tds not working with IPv6
+
+ -- Maxim Egorov <egorovmv@yandex-team.ru>  Thu, 1 Dec 2016 14:21:56 +0300
+
 mono (3.8.0-9+yandex9) unstable; urgency=medium
 
   * Removed size constraint in Uri.EscapeDataString and Uri.EscapeUriString
